@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E419C54F284FEC9B00715D92 /* BattotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C54E284FEC9B00715D92 /* BattotApp.swift */; };
+		E419C551284FEC9B00715D92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C550284FEC9B00715D92 /* ContentView.swift */; };
+		E419C553284FECA000715D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E419C552284FECA000715D92 /* Assets.xcassets */; };
+		E419C556284FECA000715D92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E419C555284FECA000715D92 /* Preview Assets.xcassets */; };
+		E419C560284FECA100715D92 /* BattotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C55F284FECA100715D92 /* BattotTests.swift */; };
+		E419C56A284FECA100715D92 /* BattotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C569284FECA100715D92 /* BattotUITests.swift */; };
+		E419C56C284FECA100715D92 /* BattotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C56B284FECA100715D92 /* BattotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E419C55C284FECA100715D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E419C543284FEC9B00715D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E419C54A284FEC9B00715D92;
+			remoteInfo = Battot;
+		};
+		E419C566284FECA100715D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E419C543284FEC9B00715D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E419C54A284FEC9B00715D92;
+			remoteInfo = Battot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E419C54B284FEC9B00715D92 /* Battot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E419C54E284FEC9B00715D92 /* BattotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattotApp.swift; sourceTree = "<group>"; };
+		E419C550284FEC9B00715D92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E419C552284FECA000715D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E419C555284FECA000715D92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E419C55B284FECA100715D92 /* BattotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E419C55F284FECA100715D92 /* BattotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattotTests.swift; sourceTree = "<group>"; };
+		E419C565284FECA100715D92 /* BattotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E419C569284FECA100715D92 /* BattotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattotUITests.swift; sourceTree = "<group>"; };
+		E419C56B284FECA100715D92 /* BattotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E419C548284FEC9B00715D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C558284FECA100715D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C562284FECA100715D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E419C542284FEC9B00715D92 = {
+			isa = PBXGroup;
+			children = (
+				E419C54D284FEC9B00715D92 /* Battot */,
+				E419C55E284FECA100715D92 /* BattotTests */,
+				E419C568284FECA100715D92 /* BattotUITests */,
+				E419C54C284FEC9B00715D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E419C54C284FEC9B00715D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E419C54B284FEC9B00715D92 /* Battot.app */,
+				E419C55B284FECA100715D92 /* BattotTests.xctest */,
+				E419C565284FECA100715D92 /* BattotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E419C54D284FEC9B00715D92 /* Battot */ = {
+			isa = PBXGroup;
+			children = (
+				E419C54E284FEC9B00715D92 /* BattotApp.swift */,
+				E419C550284FEC9B00715D92 /* ContentView.swift */,
+				E419C552284FECA000715D92 /* Assets.xcassets */,
+				E419C554284FECA000715D92 /* Preview Content */,
+			);
+			path = Battot;
+			sourceTree = "<group>";
+		};
+		E419C554284FECA000715D92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E419C555284FECA000715D92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E419C55E284FECA100715D92 /* BattotTests */ = {
+			isa = PBXGroup;
+			children = (
+				E419C55F284FECA100715D92 /* BattotTests.swift */,
+			);
+			path = BattotTests;
+			sourceTree = "<group>";
+		};
+		E419C568284FECA100715D92 /* BattotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E419C569284FECA100715D92 /* BattotUITests.swift */,
+				E419C56B284FECA100715D92 /* BattotUITestsLaunchTests.swift */,
+			);
+			path = BattotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E419C54A284FEC9B00715D92 /* Battot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E419C56F284FECA100715D92 /* Build configuration list for PBXNativeTarget "Battot" */;
+			buildPhases = (
+				E419C547284FEC9B00715D92 /* Sources */,
+				E419C548284FEC9B00715D92 /* Frameworks */,
+				E419C549284FEC9B00715D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Battot;
+			productName = Battot;
+			productReference = E419C54B284FEC9B00715D92 /* Battot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E419C55A284FECA100715D92 /* BattotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E419C572284FECA100715D92 /* Build configuration list for PBXNativeTarget "BattotTests" */;
+			buildPhases = (
+				E419C557284FECA100715D92 /* Sources */,
+				E419C558284FECA100715D92 /* Frameworks */,
+				E419C559284FECA100715D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E419C55D284FECA100715D92 /* PBXTargetDependency */,
+			);
+			name = BattotTests;
+			productName = BattotTests;
+			productReference = E419C55B284FECA100715D92 /* BattotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E419C564284FECA100715D92 /* BattotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E419C575284FECA100715D92 /* Build configuration list for PBXNativeTarget "BattotUITests" */;
+			buildPhases = (
+				E419C561284FECA100715D92 /* Sources */,
+				E419C562284FECA100715D92 /* Frameworks */,
+				E419C563284FECA100715D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E419C567284FECA100715D92 /* PBXTargetDependency */,
+			);
+			name = BattotUITests;
+			productName = BattotUITests;
+			productReference = E419C565284FECA100715D92 /* BattotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E419C543284FEC9B00715D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E419C54A284FEC9B00715D92 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E419C55A284FECA100715D92 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E419C54A284FEC9B00715D92;
+					};
+					E419C564284FECA100715D92 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E419C54A284FEC9B00715D92;
+					};
+				};
+			};
+			buildConfigurationList = E419C546284FEC9B00715D92 /* Build configuration list for PBXProject "Battot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E419C542284FEC9B00715D92;
+			productRefGroup = E419C54C284FEC9B00715D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E419C54A284FEC9B00715D92 /* Battot */,
+				E419C55A284FECA100715D92 /* BattotTests */,
+				E419C564284FECA100715D92 /* BattotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E419C549284FEC9B00715D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E419C556284FECA000715D92 /* Preview Assets.xcassets in Resources */,
+				E419C553284FECA000715D92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C559284FECA100715D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C563284FECA100715D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E419C547284FEC9B00715D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E419C551284FEC9B00715D92 /* ContentView.swift in Sources */,
+				E419C54F284FEC9B00715D92 /* BattotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C557284FECA100715D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E419C560284FECA100715D92 /* BattotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419C561284FECA100715D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E419C56C284FECA100715D92 /* BattotUITestsLaunchTests.swift in Sources */,
+				E419C56A284FECA100715D92 /* BattotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E419C55D284FECA100715D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E419C54A284FEC9B00715D92 /* Battot */;
+			targetProxy = E419C55C284FECA100715D92 /* PBXContainerItemProxy */;
+		};
+		E419C567284FECA100715D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E419C54A284FEC9B00715D92 /* Battot */;
+			targetProxy = E419C566284FECA100715D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E419C56D284FECA100715D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E419C56E284FECA100715D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E419C570284FECA100715D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Battot/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.Battot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E419C571284FECA100715D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Battot/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.Battot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E419C573284FECA100715D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.BattotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battot.app/Battot";
+			};
+			name = Debug;
+		};
+		E419C574284FECA100715D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.BattotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battot.app/Battot";
+			};
+			name = Release;
+		};
+		E419C576284FECA100715D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.BattotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Battot;
+			};
+			name = Debug;
+		};
+		E419C577284FECA100715D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R6BL59X5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qureshi.BattotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Battot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E419C546284FEC9B00715D92 /* Build configuration list for PBXProject "Battot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E419C56D284FECA100715D92 /* Debug */,
+				E419C56E284FECA100715D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E419C56F284FECA100715D92 /* Build configuration list for PBXNativeTarget "Battot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E419C570284FECA100715D92 /* Debug */,
+				E419C571284FECA100715D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E419C572284FECA100715D92 /* Build configuration list for PBXNativeTarget "BattotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E419C573284FECA100715D92 /* Debug */,
+				E419C574284FECA100715D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E419C575284FECA100715D92 /* Build configuration list for PBXNativeTarget "BattotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E419C576284FECA100715D92 /* Debug */,
+				E419C577284FECA100715D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E419C543284FEC9B00715D92 /* Project object */;
+}
